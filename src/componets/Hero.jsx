@@ -149,7 +149,7 @@ export default function Hero() {
             >
               {/* */}
               <a 
-                href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU//" 
+                href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
