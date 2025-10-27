@@ -147,25 +147,31 @@ export default function Hero() {
               variants={fadeIn}
               className="flex flex-col gap-3 pt-3"
             >
-              {/* Primary Button */}
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.97 }}
-                className="group relative w-full px-6 py-4 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-sm font-bold overflow-hidden"
+              {/* */}
+              <a 
+                href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU//" 
+                target="_blank" 
+                rel="noopener noreferrer"
               >
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-green-400"
-                  initial={{ x: '-100%' }}
-                  whileHover={{ x: '100%' }}
-                  transition={{ duration: 0.5 }}
-                />
-                <span className="relative z-10 flex items-center justify-center gap-2">
-                  Começar Agora
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </span>
-              </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="group relative w-full px-6 py-4 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-sm font-bold overflow-hidden"
+                >
+                  <motion.div
+                    className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-green-400"
+                    initial={{ x: '-100%' }}
+                    whileHover={{ x: '100%' }}
+                    transition={{ duration: 0.5 }}
+                  />
+                  <span className="relative z-10 flex items-center justify-center gap-2">
+                    Começar Agora
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </span>
+                </motion.button>
+              </a>
               
               {/* Secondary Button */}
               <motion.button
@@ -367,25 +373,31 @@ export default function Hero() {
                   variants={fadeIn}
                   className="flex flex-col sm:flex-row gap-4 pt-6"
                 >
-                  {/* Primary Button */}
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="group relative px-8 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-sm font-bold overflow-hidden" 
+                  {/* */}
+                  <a 
+                    href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
                   >
-                    <motion.div
-                      className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-green-400"
-                      initial={{ x: '-100%' }}
-                      whileHover={{ x: '100%' }}
-                      transition={{ duration: 0.5 }}
-                    />
-                    <span className="relative z-10 flex items-center gap-2">
-                      Começar Agora
-                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                      </svg>
-                    </span>
-                  </motion.button>
+                    <motion.button
+                      whileHover={{ scale: 1.02 }}
+                      whileTap={{ scale: 0.98 }}
+                      className="group relative px-8 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-sm font-bold overflow-hidden" 
+                    >
+                      <motion.div
+                        className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-green-400"
+                        initial={{ x: '-100%' }}
+                        whileHover={{ x: '100%' }}
+                        transition={{ duration: 0.5 }}
+                      />
+                      <span className="relative z-10 flex items-center gap-2">
+                        Começar Agora
+                        <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                      </span>
+                    </motion.button>
+                  </a>
                   
                   {/* Secondary Button */}
                   <motion.button

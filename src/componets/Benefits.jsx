@@ -194,43 +194,51 @@ export default function Benefits() {
             <span className="text-green-400 font-semibold"> Faça parte da nova geração de traders.</span>
           </p>
 
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="group relative w-full sm:w-auto px-8 sm:px-10 md:px-12 py-4 sm:py-5 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-base sm:text-lg font-bold overflow-hidden"
+          {/* */}
+          <a 
+            href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block"
           >
-            {/* Animated Shine Effect */}
-            <motion.div
-              className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
-              initial={{ x: '-100%' }}
-              whileHover={{ x: '200%' }}
-              transition={{ duration: 0.6, ease: "easeInOut" }}
-            />
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="group relative w-full sm:w-auto px-8 sm:px-10 md:px-12 py-4 sm:py-5 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-base sm:text-lg font-bold overflow-hidden"
+            >
+              {/* Animated Shine Effect */}
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+                initial={{ x: '-100%' }}
+                whileHover={{ x: '200%' }}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
+              />
 
-            {/* Button Content */}
-            <span className="relative z-10 flex items-center justify-center gap-2 sm:gap-3">
-              <span className="text-sm sm:text-base md:text-lg">Entrar para a Comunidade</span>
-              <motion.svg
-                className="w-4 h-4 sm:w-5 sm:h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                animate={{ x: [0, 4, 0] }}
-                transition={{ 
-                  duration: 1.5, 
-                  repeat: Infinity, 
-                  ease: "easeInOut" 
-                }}
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </motion.svg>
-            </span>
+              {/* Button Content */}
+              <span className="relative z-10 flex items-center justify-center gap-2 sm:gap-3">
+                <span className="text-sm sm:text-base md:text-lg">Entrar para a Comunidade</span>
+                <motion.svg
+                  className="w-4 h-4 sm:w-5 sm:h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  animate={{ x: [0, 4, 0] }}
+                  transition={{ 
+                    duration: 1.5, 
+                    repeat: Infinity, 
+                    ease: "easeInOut" 
+                  }}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </motion.svg>
+              </span>
 
-            {/* Glow Effect on Hover */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-400 blur-xl"></div>
-            </div>
-          </motion.button>
+              {/* Glow Effect on Hover */}
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-400 blur-xl"></div>
+              </div>
+            </motion.button>
+          </a>
         </motion.div>
       </div>
     </section>
