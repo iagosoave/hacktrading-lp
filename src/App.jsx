@@ -13,7 +13,6 @@ function App() {
       <Testimonials />
       <Pricing />
       <WhatYouGet />
-      <WhatYouGet />
       <FinalCallToAction />
     </div>
   );
