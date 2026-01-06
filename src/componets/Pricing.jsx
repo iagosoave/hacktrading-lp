@@ -18,7 +18,7 @@ export default function Pricing() {
       savings: null,
       buttonText: 'Assinar mensal',
       highlight: false,
-      link: 'https://pay.hub.la/mensal'
+      link: 'https://pay.hub.la/SMD9kAK8LlsYfIL677ap'
     },
     {
       id: 'quarterly',
@@ -36,7 +36,7 @@ export default function Pricing() {
       savings: 'Economize R$152,70 em 3 meses',
       buttonText: 'Assinar trimestral',
       highlight: true,
-      link: 'https://pay.hub.la/trimestral'
+      link: 'https://pay.hub.la/uRFzZM4rTFEWrZ04V4Td'
     },
     {
       id: 'semester',
@@ -53,7 +53,7 @@ export default function Pricing() {
       savings: 'Economize R$365,40 em 6 meses',
       buttonText: 'Assinar semestral',
       highlight: false,
-      link: 'https://pay.hub.la/semestral'
+      link: 'https://pay.hub.la/i4nRhq6vB7QWkwJReftm'
     }
   ];
 
