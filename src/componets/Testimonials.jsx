@@ -451,11 +451,9 @@ export default function Testimonials() {
             </span>
           </p>
 
-          {/* */}
+          {/* Botão modificado para redirecionar para #pricing */}
           <a 
-            href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU" 
-            target="_blank" 
-            rel="noopener noreferrer"
+            href="#pricing"
             className="inline-block"
           >
             <motion.button
@@ -463,7 +461,6 @@ export default function Testimonials() {
               whileTap={{ scale: 0.98 }}
               className="group relative w-full sm:w-auto px-8 sm:px-12 py-4 sm:py-5 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-base sm:text-lg font-bold overflow-hidden"
             >
-              {/* ... (Button content) ... */}
               <motion.div
                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
                 initial={{ x: '-100%' }}
@@ -471,7 +468,7 @@ export default function Testimonials() {
                 transition={{ duration: 0.6, ease: "easeInOut" }}
               />
               <span className="relative z-10 flex items-center justify-center gap-3">
-                Quero Fazer Parte
+                Ver Planos
                 <motion.svg
                   className="w-5 h-5"
                   fill="none"

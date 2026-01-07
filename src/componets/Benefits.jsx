@@ -194,11 +194,9 @@ export default function Benefits() {
             <span className="text-green-400 font-semibold"> Faça parte da nova geração de traders.</span>
           </p>
 
-          {/* */}
+          {/* Botão modificado para redirecionar para #pricing */}
           <a 
-            href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU" 
-            target="_blank" 
-            rel="noopener noreferrer"
+            href="#pricing" 
             className="inline-block"
           >
             <motion.button
@@ -216,7 +214,7 @@ export default function Benefits() {
 
               {/* Button Content */}
               <span className="relative z-10 flex items-center justify-center gap-2 sm:gap-3">
-                <span className="text-sm sm:text-base md:text-lg">Entrar para a Comunidade</span>
+                <span className="text-sm sm:text-base md:text-lg">Ver Planos</span>
                 <motion.svg
                   className="w-4 h-4 sm:w-5 sm:h-5"
                   fill="none"

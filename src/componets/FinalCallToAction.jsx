@@ -89,12 +89,10 @@ export default function FinalCallToAction() {
               {ctaText}
             </p>
 
-            {/* */}
+            {/* Botão com nova copy */}
             <a 
-              href="https://pay.hub.la/cAu7LOeFKkiKKPvmHojU" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block mt-10" // Adicionado margin-top aqui
+              href="#pricing"
+              className="inline-block mt-10"
             >
               <motion.button
                 whileHover={{ scale: 1.02 }}
@@ -111,7 +109,7 @@ export default function FinalCallToAction() {
 
                 {/* Button Content */}
                 <span className="relative z-10 flex items-center justify-center gap-3">
-                  Quero Fazer Parte
+                  Ver Planos
                   <motion.svg
                     className="w-5 h-5"
                     fill="none"
